@@ -1,0 +1,1 @@
+This first project will attempt to create a test page based off the google homepage. The skills demonstarted throughout this lesson will include basic HTML and CSS in conjunction with git commands using xubuntu command line.# Google-Homepage-Project
