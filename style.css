@@ -1,4 +1,28 @@
 body {
-    background-color: white;
+    background-color: orange;
     text-align: center;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    display: inline;
+}
+.nav-left {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+.nav-right {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
 }
