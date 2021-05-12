@@ -1,44 +1,25 @@
 body {
-    background-color: white;
-    text-align: center;
     font-size: 14px;
     font-family: arial, sans-serif;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
+.nav-top {
+    display: flex;
+    align-items: center;
+    padding: 6px;
 }
-li {
-    display: inline;
-}
-#nav-link {
-    -moz-appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-}
-.nav-left {
+a.nav-left {
     display: inline-block;
     padding: 5px;
-    margin: 0 5px;
+    margin: 0px;
     color: #222;
+    text-decoration: none;
+    border-style: dotted;
 }
-.nav-right {
+a.nav-right {
     display: inline-block;
     padding: 5px;
-    margin: 0 5px;
+    margin: 0px;
     color: #222;
+    text-decoration: none;
+    border-style: dotted;
 }
-.google-logo {
-    max-height: 100%;
-    max-width: 100;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto;
-}
-div.search-box {
-    border-radius: 50px;
-}
-
