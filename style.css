@@ -1,25 +1,36 @@
-body {
+.body-box {
+    display: flex;
+    justify-content: space-between;
     font-size: 14px;
     font-family: arial, sans-serif;
+    background-color: slategrey;
 }
-.nav-top {
+.nav-left {
     display: flex;
     align-items: center;
     padding: 6px;
-}
-a.nav-left {
-    display: inline-block;
-    padding: 5px;
-    margin: 0px;
-    color: #222;
+    background-color: green;
     text-decoration: none;
-    border-style: dotted;
 }
-a.nav-right {
-    display: inline-block;
-    padding: 5px;
-    margin: 0px;
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    background-color: red;
+}
+.nav-left1 {
+    padding: 15px;
     color: #222;
-    text-decoration: none;
-    border-style: dotted;
+}
+.nav-left2 {
+    padding: 15px;
+    color: #222;
+}
+.nav-right1 {
+    padding: 15px;
+    color: #222;
+}
+.nav-right2 {
+    padding: 15px;
+    color: #222;
 }
