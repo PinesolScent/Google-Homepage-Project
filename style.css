@@ -9,7 +9,6 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
-
 }
 .nav-left {
     display: flex;
@@ -51,7 +50,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    max-width: 272px;
+    max-width: 275px;
     max-height: 92px;
     background: blue;
 }
@@ -59,7 +58,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .search-box1 {
     display: flex;
     align-items: center;
@@ -67,6 +65,13 @@ body {
 }
 #search {
     border-radius: 15px;
-    width: 520px;
+    width: 400px;
     height: 34px;
+}
+.search-icon .search-icon1 {
+    display: flex;
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+    color: #9aa0a6;
 }
