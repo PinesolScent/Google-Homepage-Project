@@ -6,6 +6,11 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
 .nav-left {
     display: flex;
     align-items: center;
@@ -42,6 +47,7 @@ body {
 }
 .center-logo {
     display: block;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -49,15 +55,18 @@ body {
     max-height: 92px;
     background: blue;
 }
-
 .search-box {
+    display: flex;
+    justify-content: center;
+}
+
+.search-box1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: purple;
 }
 #search {
     border-radius: 15px;
-    width: 527px;
+    width: 520px;
     height: 34px;
 }
