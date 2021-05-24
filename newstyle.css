@@ -2,6 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
 }
 body {
     background-color: lightgoldenrodyellow;
@@ -17,27 +20,30 @@ body {
     flex-direction: row;
     background-color: lawngreen;
 }
+.navigation2 {
+    display:flex;
+    margin-left: auto;
+}
 
 .about {
     border: solid brown;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .store {
     border: solid brown;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .gmail {
     border: solid brown;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .images {
-    justify-content: flex-end;
     border: solid brown;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .logo {
     background-color: lightcoral;
