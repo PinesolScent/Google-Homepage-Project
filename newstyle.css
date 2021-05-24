@@ -6,18 +6,21 @@
     font-family: arial,sans-serif;
     font-size: 14px;
 }
-body {
+html, body {
+    box-sizing: border-box;
+    height: 100%;
     background-color: lightgoldenrodyellow;
 }
 .container {
-    display: grid;
-    gap: 10px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
 }
 .navigation {
     display: flex;
-    flex-direction: row;
+    height: 75px;
     background-color: lawngreen;
 }
 .navigation2 {
@@ -45,13 +48,16 @@ body {
     padding: 5px;
     margin: 10px;
 }
-.logo {
+.center-logo {
     background-color: lightcoral;
+    display: flex;
+    justify-content: center;
 }
 .main {
     background-color: rgb(92, 190, 190);
+    display: flex;
 }
+
 .footer {
     background-color: lightslategrey;
-    grid-column: 1/-1;
 }
