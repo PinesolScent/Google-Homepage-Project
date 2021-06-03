@@ -20,10 +20,6 @@ html, body {
     width: 100vw;
 }
 
-.container > div {
-    flex: 1;
-}
-
 .container > .main {
     flex: 2;
 }
@@ -64,19 +60,22 @@ html, body {
 }
 
 .app-tray-img {
+    height: 35px;
+    width: 35px;
     border-radius: 30px;
     background-color: rgba(233, 230, 230, 0.74);
     padding: 5px;
-    margin: 5px;    
+    margin: 7px;    
 }
 
 .profile-img {
     border-radius: 30px;
     padding: 5px;
-    margin: 5px;
+    margin: 3px;
 }
 
 .center-logo {
+    height: 300px;
     border: 5px solid green;
     background-color: lightcoral;
     display: flex;
