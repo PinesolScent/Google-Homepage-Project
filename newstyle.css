@@ -8,19 +8,19 @@
 }
 html, body {
     box-sizing: border-box;
-    height: 100%;
     background-color: lightgoldenrodyellow;
 }
 .container {
     display: flex;
-    height: 100%;
+    border: 5px solid gold;
     flex-direction: column;
+    justify-content: space-around;
     height: 100vh;
     width: 100vw;
 }
 .navigation {
     display: flex;
-    height: 75px;
+    border: 5px solid black;
     background-color: lawngreen;
 }
 .navigation2 {
@@ -49,15 +49,20 @@ html, body {
     margin: 10px;
 }
 .center-logo {
+    border: 5px solid green;
     background-color: lightcoral;
     display: flex;
     justify-content: center;
 }
 .main {
+    border: 5px solid orange;
     background-color: rgb(92, 190, 190);
     display: flex;
+    justify-content: center;
 }
 
 .footer {
+    border: 5px solid magenta;
     background-color: lightslategrey;
+    justify-content: center;
 }
