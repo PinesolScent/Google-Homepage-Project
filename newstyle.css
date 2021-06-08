@@ -59,13 +59,9 @@ html, body {
     margin: 10px;
 }
 
-.app-tray-img {
-    height: 35px;
-    width: 35px;
-    border-radius: 30px;
-    background-color: rgba(233, 230, 230, 0.74);
-    padding: 5px;
-    margin: 7px;    
+#app-tray-icon {
+    padding-top: 12px;
+    color: #5f6368;
 }
 
 .profile-img {
@@ -76,7 +72,6 @@ html, body {
 
 .center-logo {
     height: 300px;
-    border: 5px solid green;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -90,7 +85,6 @@ html, body {
 }
 
 .main {
-    border: 5px solid orange;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -126,17 +120,36 @@ html, body {
 }
 
 .middle-buttons {
-    border: solid white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: min-content;
-    width: 20em;
+    height: 45px;
+    padding-top: 15px;
+    width: 22em;
+}
+
+.google-search {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.search-button {
+    border: none;
+    background-color: #f8f9fa;
+    padding: 7px 10px;
+}
+
+.lucky {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.lucky-button {
+    border: none;
+    background-color: #f8f9fa;
+    padding: 7px 10px;
 }
 
 .footer {
     margin-top: auto;
     border: 5px solid magenta;
     background-color: lightslategrey;
-    justify-content: center;
 }
