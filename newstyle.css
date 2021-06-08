@@ -12,6 +12,10 @@ html, body {
     background-color: lightgoldenrodyellow;
 }
 
+.material-icons {
+    
+}
+
 .container {
     display: flex;
     border: 5px solid gold;
