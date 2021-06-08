@@ -96,6 +96,22 @@ html, body {
     justify-content: center;
 }
 
+.search {
+   display: flex;
+   flex-direction: column;
+}
+
+.search-bar {
+    border: solid blue;
+
+}
+
+.middle-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .footer {
     margin-top: auto;
     border: 5px solid magenta;
