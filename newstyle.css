@@ -105,11 +105,19 @@ html, body {
 }
 
 .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #ddd;
     border-radius: 20px;
     display: flex;
     width: 40em;
     height: 3.3em
+}
+
+.search-bar > #search-box {
+    display: flex;
+    align-items: center
 }
 
 .middle-buttons {
