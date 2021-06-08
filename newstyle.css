@@ -101,7 +101,7 @@ html, body {
    border: solid grey;
    display: flex;
    flex-direction: column;
-   height: 5em;
+   height: 4em;
 }
 
 .search-bar {
@@ -116,8 +116,8 @@ html, body {
 }
 
 .search-bar > #search-box {
-    display: flex;
-    align-items: center
+    width: 34em;
+    height: 2em;
 }
 
 .middle-buttons {
