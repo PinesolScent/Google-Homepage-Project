@@ -82,6 +82,13 @@ html, body {
     justify-content: center;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
 .main {
     border: 5px solid orange;
     background-color: rgb(92, 190, 190);
