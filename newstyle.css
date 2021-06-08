@@ -25,9 +25,9 @@ html, body {
 }
 
 .navigation {
+    background-color: white;
     margin-bottom: auto;
     display: flex;
-    border: 5px solid black;
 }
 
 .navigation2 {
@@ -77,7 +77,7 @@ html, body {
 .center-logo {
     height: 300px;
     border: 5px solid green;
-    background-color: lightcoral;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -93,23 +93,32 @@ html, body {
     border: 5px solid orange;
     background-color: rgb(92, 190, 190);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .search {
+   border: solid grey;
    display: flex;
    flex-direction: column;
+   height: 5em;
 }
 
 .search-bar {
-    border: solid blue;
-
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    display: flex;
+    width: 40em;
+    height: 3.3em
 }
 
 .middle-buttons {
+    border: solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: min-content;
+    width: 20em;
 }
 
 .footer {
