@@ -12,10 +12,6 @@ html, body {
     background-color: lightgoldenrodyellow;
 }
 
-.material-icons {
-    
-}
-
 .container {
     display: flex;
     border: 5px solid gold;
@@ -95,24 +91,28 @@ html, body {
 
 .main {
     border: 5px solid orange;
-    background-color: rgb(92, 190, 190);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .search {
-   border: solid grey;
    display: flex;
    flex-direction: column;
    height: 4em;
+}
+
+#search-icon {
+    color: #9aa0a6;
+    height: 24px;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ddd;
+    border: 1px solid #dfe1e5;
     border-radius: 20px;
     display: flex;
     width: 40em;
@@ -122,6 +122,7 @@ html, body {
 .search-bar > #search-box {
     width: 34em;
     height: 2em;
+    border: none;
 }
 
 .middle-buttons {
