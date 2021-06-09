@@ -149,7 +149,21 @@ html, body {
 }
 
 .footer {
-    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
     border: 5px solid magenta;
     background-color: lightslategrey;
+    height: 7em
+}
+
+.carbon {
+    
+}
+
+.footer-links {
+
+}
+
+.footer-links2 {
+
 }
