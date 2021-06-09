@@ -14,7 +14,6 @@ html, body {
 
 .container {
     display: flex;
-    border: 5px solid gold;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
@@ -151,19 +150,56 @@ html, body {
 .footer {
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid magenta;
-    background-color: lightslategrey;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    background-color: #dfe1e5;
     height: 7em
 }
 
 .carbon {
-    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.carbon-link {
+    color: #70757a;
+    margin-top: 20px;
 }
 
 .footer-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-top: 30px;
+    }
 
+.advertising{
+    color: #70757a;
 }
 
-.footer-links2 {
+.business {
+    color: #70757a;
+}
 
+.how-search-works {
+    color: #70757a;
+}
+.footer-links2 {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.privacy {
+    color: #70757a;
+}
+
+.terms {
+    color: #70757a;
+}
+
+.settings {
+    color: #70757a;
 }
